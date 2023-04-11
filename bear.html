@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bear {
+            width: 400px;
+            height: 400px;
+            border-radius: 300px;
+            background: #000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .bear::before {
+            content: "";
+            width: 90px;
+            height: 90px;
+            border-radius: 200px;
+            background: red;
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            transform: translate(0, -50%);
+        }
+
+        .bear::after {
+            content: "";
+            width: 90px;
+            height: 90px;
+            border-radius: 200px;
+            background: red;
+            position: absolute;
+            top: 50%;
+            right: -20px;
+            transform: translate(0, -50%);
+        }
+
+        .eyew::before {
+            content: "";
+            width: 80px;
+            height: 80px;
+            border-radius: 200px;
+            background: white;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        .eyew::after {
+            content: "";
+            width: 80px;
+            height: 80px;
+            border-radius: 200px;
+            background: white;
+            position: absolute;
+            top: 30%;
+            right: 30%;
+            transform: translate(50%, -50%);
+        }
+
+        .eyeb::before {
+            content: "";
+            width: 60px;
+            height: 60px;
+            border-radius: 200px;
+            background: #000;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        .eyeb::after {
+            content: "";
+            width: 60px;
+            height: 60px;
+            border-radius: 200px;
+            background: #000;
+            position: absolute;
+            top: 30%;
+            right: 30%;
+            transform: translate(50%, -50%);
+        }
+
+        .mouth {
+            width: 160px;
+            height: 100px;
+            border-radius: 80%;
+            background: #fff;
+            position: absolute;
+            left: 50%;
+            top: 52%;
+            transform: translate(-50%, -50%);
+        }
+
+        .mouth::before {
+            content: "";
+            width: 40px;
+            height: 25px;
+            border-radius: 80%;
+            background: #000;
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            transform: translate(-50%, -50%);
+        }
+
+        .mouth::after {
+            content: "";
+            width: 90px;
+            height: 35px;
+            border-radius: 80%;
+            background: #000;
+            position: absolute;
+            left: 50%;
+            top: 70%;
+            transform: translate(-50%, -50%);
+        }
+
+        .earb::before {
+            content: "";
+            width: 60px;
+            height: 60px;
+            border-radius: 200px;
+            background: #000;
+            position: absolute;
+            top: 5%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+        }
+
+        .earb::after {
+            content: "";
+            width: 60px;
+            height: 60px;
+            border-radius: 200px;
+            background: #000;
+            position: absolute;
+            top: 5%;
+            right: 20%;
+            transform: translate(50%, -50%);
+        }
+
+        .earw::before {
+            content: "";
+            width: 40px;
+            height: 40px;
+            border-radius: 200px;
+            background: #fff;
+            position: absolute;
+            top: 5%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+        }
+
+        .earw::after {
+            content: "";
+            width: 40px;
+            height: 40px;
+            border-radius: 200px;
+            background: #fff;
+            position: absolute;
+            top: 5%;
+            right: 20%;
+            transform: translate(50%, -50%);
+        }
+
+        .v::before {
+            content: "";
+            width: 50px;
+            height: 60px;
+            background: #fff;
+            position: absolute;
+            left: 40%;
+            bottom: 10%;
+            transform: translate(-40%, 10%) skew(45deg);
+        }
+
+        .v::after {
+            content: "";
+            width: 50px;
+            height: 60px;
+            background: #fff;
+            position: absolute;
+            right: 40%;
+            bottom: 10%;
+            transform: translate(40%, 10%) skew(-45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bear">
+        <div class="eyew">
+
+        </div>
+        <div class="eyeb">
+
+        </div>
+        <div class="mouth">
+
+        </div>
+        <div class="earb">
+
+        </div>
+        <div class="earw">
+
+        </div>
+        <div class="v">
+
+        </div>
+    </div>
+</body>
+
+</html>
