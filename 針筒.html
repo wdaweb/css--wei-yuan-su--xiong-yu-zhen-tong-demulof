@@ -47,6 +47,19 @@
             transform: translate(-50%);
         }
 
+        .line {
+            width: 400px;
+            height: 80px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: repeating-linear-gradient(90deg, #c5c1c1 0, #c5c1c1 1px, transparent 0, transparent 0.3cm);
+            background-position: 0.4cm 0;
+            background-repeat: no-repeat;
+            background-size: 100% 10px;
+        }
+
         .other {
             width: 35px;
             height: 60px;
@@ -87,10 +100,9 @@
 
 <body>
     <div class="main">
+        <div class="line"></div>
         Made in Taiwan
-        <div class="other">
-
-        </div>
+        <div class="other"></div>
     </div>
 </body>
 
